@@ -3,6 +3,7 @@ import { __ } from '@wordpress/i18n'
 import { getSystemActions } from 'store'
 import { wordpress } from 'utils'
 import { App, AppIcon } from './app'
+import { search } from './search'
 import { initialState, actions, reducers, effects } from './state'
 const { currentUserCan } = wordpress
 const { registerApp } = getSystemActions()
@@ -16,4 +17,5 @@ registerApp( 'fl-users', {
 	actions,
 	reducers,
 	effects,
+	search,
 } )
