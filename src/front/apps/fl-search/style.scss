@@ -1,0 +1,22 @@
+.fl-asst-search-keyword {
+
+	.fl-asst-form-item-content {
+		position: relative;
+	}
+}
+
+.fl-asst-search-spinner {
+	align-items: center;
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+}
+
+.fl-asst-search-is-loading {
+
+	.fl-asst-search-spinner {
+		display: flex;
+	}
+}
